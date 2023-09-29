@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: rgb(54, 130, 201);
+  width: 800px;
+  border-radius: 15px;
+}
+.ctas {
+  display: flex;
+}
+.card {
+  display: flex;
+  background: rgb(54, 130, 201);
+  width: 1000px;
+  border-radius: 15px;
+  padding: 50px;
+  margin-bottom: 30px;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.quote {
+  padding: 60px 110px;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+.sec{
+  background: rgb(60, 60, 182);
+}
+.line {
+  width: 680px;
+  height: 1.5px;
+  background: white;
+  margin-bottom: 10px;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+.author {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.icons {
+  display: flex;
+  gap: 30px;
+}
+
+
+
+.image {
+  cursor: pointer;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+#saved{
+  cursor: pointer;
+  height: 40px;
+ 
+  transition: transform 0.5s;
+}
+.icons img:hover {
+  transform: translateY(-10px);
+}
+.btn {
+  border-radius: 10px;
+  border: 1px solid rgb(4, 11, 70);
+  cursor: pointer;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+}
+
+.pre {
+  background: rgb(3, 27, 134);
+  border-radius: 10px;
+  border: 1px solid rgb(4, 11, 70);
+  cursor: pointer;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+}
+.pre:hover {
+  color: rgb(3, 27, 134);
+  background: white;
+  border: 1px solid rgb(3, 27, 134);
+}
+.remove-btn {
+  background: red;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+}
+.card-content {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+h1 {
+  margin: 15px;
+}
+.card-author {
+  color: white;
+}
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.trash,
+.saved {
+  background: rgb(0, 102, 255);
+}
+.restore {
+  background: rgb(47, 6, 158);
+}
